@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>A Simple Calculator</title>
+        <link href="./css/light_style.css" rel="stylesheet" type="text/css">
+        <script src="./js/run.js" defer></script>
+    </head>
+
+    <body>
+        <h1>A Simple Calculator</h1>
+        <div class="display">
+            <p id="formula"></p>
+            <p id="output" style="text-align: right;"></p>
+        </div>
+        <div class="info" dir="rtl">
+            <span id="signature">Developed by: AllenYolk</span>
+            <button type="button" id="button_switchStyle"></button>
+        </div>
+        <div class="panel">
+            <button type="button" id="button_inf" class="special">INF</button>
+            <button type="button" id="button_nan" class="special">NaN</button>
+            <button type="button" id="button_ans" class="special">ANS</button>
+            <button type="button" id="button_del" class="ctrl">DEL</button>
+            <button type="button" id="button_ac" class="ctrl">AC</button>
+
+            <button type="button" id="button_7" class="digit">7</button>
+            <button type="button" id="button_8" class="digit">8</button>
+            <button type="button" id="button_9" class="digit">9</button>
+            <button type="button" id="button_leftpa" class="digit">(</button>
+            <button type="button" id="button_rightpa" class="digit">)</button>
+
+            <button type="button" id="button_4" class="digit">4</button>
+            <button type="button" id="button_5" class="digit">5</button>
+            <button type="button" id="button_6" class="digit">6</button>
+            <button type="button" id="button_times" class="op">*</button>
+            <button type="button" id="button_div" class="op">/</button>
+
+            <button type="button" id="button_1" class="digit">1</button>
+            <button type="button" id="button_2" class="digit">2</button>
+            <button type="button" id="button_3" class="digit">3</button>
+            <button type="button" id="button_add" class="op">+</button>
+            <button type="button" id="button_minus" class="op">-</button>
+            
+            <button type="button" id="button_0" class="digit">0</button>
+            <button type="button" id="button_dot" class="digit">.</button>
+            <button type="button" id="button_mod" class="digit">MOD</button>
+            <button type="button" id="button_power" class="op">**</button>
+            <button type="button" id="button_eq" class="op">=</button>
+        </div>
+    </body>
+</html>

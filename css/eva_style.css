@@ -1,0 +1,88 @@
+html {
+    background-color: rgb(102, 47, 107);
+}
+
+body {
+    margin: 20px auto;
+    border: 5px solid wheat;
+    height: 740px;
+    width: 750px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.display {
+    box-sizing: border-box;
+    height: 140px;
+    width: 730px;
+    margin: 0px auto;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color:yellowgreen;
+}
+
+.display > p {
+    overflow: auto;
+}
+
+.info {
+    box-sizing: border-box;
+    height: 40px;
+    margin: 15px 15px 0px 15px;
+}
+
+#signature {
+    color: white;
+    font-size: xx-small;
+}
+
+#button_switchStyle {
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: orange;
+}
+
+.panel {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: repeat(5, 1fr);
+    gap: 10px;
+    width: 730px;
+    height: 460px;
+    margin: 0px auto;
+}
+
+.panel > button {
+    box-sizing: border-box;
+    height: 75px;
+    width: 135px;
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(214, 214, 214);
+}
+
+.panel > .ctrl {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.panel > #button_eq {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.panel > .special {
+    background-color: forestgreen;
+    color: white;
+    border-color: forestgreen;
+}
